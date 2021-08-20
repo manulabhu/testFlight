@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="qaAcademy.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Validating Home page title(failed)">
+    <classes>
+      <class name="qaAcademy.HomePageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+          <include name="homePageNavigation"/>
+        </methods>
+      </class> <!-- qaAcademy.HomePageTest -->
+    </classes>
+  </test> <!-- Validating Home page title(failed) -->
+</suite> <!-- Failed suite [Suite] -->
