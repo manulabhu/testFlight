@@ -104,7 +104,7 @@ public class SearchRoundTripFlightTest extends base {
 		//w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@value='STV'])[2]")));
 		fl.getToCity().click();
 		log.debug("To city is selected");
-		
+		System.out.println("Test");
 		
 	}
 	
