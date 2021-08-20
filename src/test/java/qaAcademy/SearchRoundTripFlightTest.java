@@ -105,7 +105,9 @@ public class SearchRoundTripFlightTest extends base {
 		fl.getToCity().click();
 		log.debug("To city is selected");
 		System.out.println("pipeline test");
-		
+		System.out.println("pipeline test");
+		System.out.println("pipeline test");
+		System.out.println("pipeline test");
 		
 	}
 	
