@@ -77,6 +77,7 @@ public class OnewayFlightTest extends base{
 		String fromText = php.autosuggestFrom().getText();
 		Assert.assertNotNull(fromText);
 		Assert.assertEquals(fromText, "Dallas (DFW)");
+		System.out.println("from flight is validated");
 		
 	}
 	
