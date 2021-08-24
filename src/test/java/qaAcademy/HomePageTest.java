@@ -43,6 +43,8 @@ public class HomePageTest extends base {
 	
 	log.error("Debug is not working");
 	
+	log.error("Debug is not working");
+	
 	}
 	
 	
