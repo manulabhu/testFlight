@@ -28,7 +28,7 @@ public class SearchRoundTripFlightTest extends base {
 	
 	
 	
-	@BeforeTest
+	@BeforeClass
 	 public void initialization() throws IOException {
 		    prop = new Properties();
 			driver = initializeDriver();
@@ -158,6 +158,8 @@ public class SearchRoundTripFlightTest extends base {
 		  else
 		  {
 			  fl.checkRoundtrip().click();
+			 // System.out.println(fl.checkRoundtrip().isSelected());
+			  Assert.assertEquals(fl.checkRoundtrip().isSelected(), false);
 			  int radioCount = driver.findElements(By.cssSelector("input[type='radio']")).size();
 			  Assert.assertEquals(radioCount, 5);
 		  }
