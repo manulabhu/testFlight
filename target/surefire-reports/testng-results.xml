@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52220" started-at="2021-08-24T17:13:49 CDT" finished-at="2021-08-24T17:14:41 CDT">
+  <suite name="Suite" duration-ms="33995" started-at="2021-08-24T17:20:59 CDT" finished-at="2021-08-24T17:21:33 CDT">
     <groups>
     </groups>
-    <test name="searching round trip flight" duration-ms="52220" started-at="2021-08-24T17:13:49 CDT" finished-at="2021-08-24T17:14:41 CDT">
+    <test name="searching round trip flight" duration-ms="33995" started-at="2021-08-24T17:20:59 CDT" finished-at="2021-08-24T17:21:33 CDT">
       <class name="qaAcademy.SearchRoundTripFlightTest">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="initialization" is-config="true" duration-ms="36395" started-at="2021-08-24T17:13:49 CDT" finished-at="2021-08-24T17:14:25 CDT">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="initialization" is-config="true" duration-ms="20910" started-at="2021-08-24T17:20:59 CDT" finished-at="2021-08-24T17:21:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="selectDates()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDates" duration-ms="1070" started-at="2021-08-24T17:14:25 CDT" finished-at="2021-08-24T17:14:26 CDT">
+        <test-method status="PASS" signature="selectDates()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDates" duration-ms="641" started-at="2021-08-24T17:21:20 CDT" finished-at="2021-08-24T17:21:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDates -->
-        <test-method status="PASS" signature="selectRndTripRadio()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectRndTripRadio" duration-ms="543" started-at="2021-08-24T17:14:27 CDT" finished-at="2021-08-24T17:14:27 CDT">
+        <test-method status="PASS" signature="selectRndTripRadio()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectRndTripRadio" duration-ms="351" started-at="2021-08-24T17:21:20 CDT" finished-at="2021-08-24T17:21:21 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRndTripRadio -->
-        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDropdown" duration-ms="9492" started-at="2021-08-24T17:14:27 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectRndTripRadio" finished-at="2021-08-24T17:14:37 CDT">
+        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDropdown" duration-ms="8294" started-at="2021-08-24T17:21:21 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectRndTripRadio" finished-at="2021-08-24T17:21:29 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDropdown -->
-        <test-method status="PASS" signature="autoSuggestDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="autoSuggestDropdown" duration-ms="767" started-at="2021-08-24T17:14:37 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectDropdown" finished-at="2021-08-24T17:14:37 CDT">
+        <test-method status="PASS" signature="autoSuggestDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="autoSuggestDropdown" duration-ms="701" started-at="2021-08-24T17:21:29 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectDropdown" finished-at="2021-08-24T17:21:30 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- autoSuggestDropdown -->
-        <test-method status="PASS" signature="selectCheckBox()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectCheckBox" duration-ms="321" started-at="2021-08-24T17:14:37 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.autoSuggestDropdown" finished-at="2021-08-24T17:14:38 CDT">
+        <test-method status="PASS" signature="selectCheckBox()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectCheckBox" duration-ms="337" started-at="2021-08-24T17:21:30 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.autoSuggestDropdown" finished-at="2021-08-24T17:21:30 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCheckBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="tearDown" is-config="true" duration-ms="3459" started-at="2021-08-24T17:14:38 CDT" finished-at="2021-08-24T17:14:41 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="tearDown" is-config="true" duration-ms="2661" started-at="2021-08-24T17:21:30 CDT" finished-at="2021-08-24T17:21:33 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

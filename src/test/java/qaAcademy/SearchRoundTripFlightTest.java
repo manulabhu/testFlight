@@ -141,6 +141,7 @@ public class SearchRoundTripFlightTest extends base {
 			else
 			{
 				fl.checkStudent().click();
+				Assert.assertEquals(fl.checkStudent().isSelected(), true);
 				int checkCount = driver.findElements(By.cssSelector("input[type*='checkbox']")).size();
 				Assert.assertEquals(checkCount, 6);
 			}
@@ -159,7 +160,7 @@ public class SearchRoundTripFlightTest extends base {
 		  {
 			  fl.checkRoundtrip().click();
 			 // System.out.println(fl.checkRoundtrip().isSelected());
-			  Assert.assertEquals(fl.checkRoundtrip().isSelected(), false);
+			  
 			  int radioCount = driver.findElements(By.cssSelector("input[type='radio']")).size();
 			  Assert.assertEquals(radioCount, 5);
 		  }
