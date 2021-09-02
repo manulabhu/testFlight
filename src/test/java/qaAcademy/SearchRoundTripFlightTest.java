@@ -1,6 +1,7 @@
 package qaAcademy;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -128,6 +129,9 @@ public class SearchRoundTripFlightTest extends base {
 		
 		}
 	
+		
+		
+		
 	
 		@Test(dependsOnMethods="autoSuggestDropdown")
 		public void selectCheckBox()

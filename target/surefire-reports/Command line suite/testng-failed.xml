@@ -14,7 +14,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="initialization"/>
-          <include name="differentUserLogin"/>
+          <include name="differentUserLogin" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- qaAcademy.DataProviderLoginTest -->
       <class name="qaAcademy.JDBCDataProviderLoginTest">
@@ -56,7 +56,6 @@
       <class name="qaAcademy.SearchRoundTripFlightTest">
         <methods>
           <include name="selectCheckBox"/>
-          <include name="selectDates"/>
           <include name="initialization"/>
           <include name="selectRndTripRadio"/>
           <include name="selectDropdown"/>

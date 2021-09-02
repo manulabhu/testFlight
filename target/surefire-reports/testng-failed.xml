@@ -8,11 +8,8 @@
     <classes>
       <class name="qaAcademy.SearchRoundTripFlightTest">
         <methods>
-          <include name="selectCheckBox"/>
+          <include name="selectDates"/>
           <include name="initialization"/>
-          <include name="selectRndTripRadio"/>
-          <include name="selectDropdown"/>
-          <include name="autoSuggestDropdown"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- qaAcademy.SearchRoundTripFlightTest -->

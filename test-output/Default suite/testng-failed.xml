@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qaAcademy.SearchRoundTripFlightTest">
+      <class name="qaAcademy.JDBCDataProviderLoginTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="selectCheckBox"/>
-          <include name="selectRndTripRadio"/>
-          <include name="selectDates"/>
-          <include name="autoSuggestDropdown"/>
-          <include name="selectDropdown"/>
+          <include name="differentUserLogin"/>
           <include name="initialization"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- qaAcademy.SearchRoundTripFlightTest -->
+      </class> <!-- qaAcademy.JDBCDataProviderLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
