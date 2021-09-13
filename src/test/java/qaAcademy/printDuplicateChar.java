@@ -11,7 +11,7 @@ public class printDuplicateChar {
 	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
-		printDuplicateChar("s");
+		printDuplicateChar("this pament is valid");
 	}
 
 	public static void printDuplicateChar(String st) {

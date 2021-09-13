@@ -50,7 +50,7 @@ public class DataProviderLoginTest extends base{
  @DataProvider
  public Object[][] loginData()
  {
-	 // We providing two three types of data to two sets of user
+	 // We providing three types of data to two sets of user
  Object[][]  data = new Object[2][3];
  
  data[0][0]="restricteduser@gmail.com";

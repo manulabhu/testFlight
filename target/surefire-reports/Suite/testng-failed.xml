@@ -4,15 +4,16 @@
   <listeners>
     <listener class-name="qaAcademy.Listeners"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="searching round trip flight(failed)">
+  <test thread-count="5" verbose="0" name="searching one way flight(failed)">
     <classes>
-      <class name="qaAcademy.SearchRoundTripFlightTest">
+      <class name="phpTravel.OnewayFlightTest">
         <methods>
-          <include name="selectDates"/>
+          <include name="onewayRadio"/>
           <include name="initialization"/>
-          <include name="tearDown"/>
+          <include name="selectRoute"/>
+          <include name="getFlightPage"/>
         </methods>
-      </class> <!-- qaAcademy.SearchRoundTripFlightTest -->
+      </class> <!-- phpTravel.OnewayFlightTest -->
     </classes>
-  </test> <!-- searching round trip flight(failed) -->
+  </test> <!-- searching one way flight(failed) -->
 </suite> <!-- Failed suite [Suite] -->

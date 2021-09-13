@@ -1,107 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="135647" started-at="2021-08-26T17:31:25 CDT" finished-at="2021-08-26T17:33:41 CDT">
+  <suite name="Suite" duration-ms="23483" started-at="2021-09-02T17:01:21 CDT" finished-at="2021-09-02T17:01:45 CDT">
     <groups>
     </groups>
-    <test name="searching round trip flight" duration-ms="135647" started-at="2021-08-26T17:31:25 CDT" finished-at="2021-08-26T17:33:41 CDT">
+    <test name="searching round trip flight" duration-ms="23483" started-at="2021-09-02T17:01:21 CDT" finished-at="2021-09-02T17:01:45 CDT">
       <class name="qaAcademy.SearchRoundTripFlightTest">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="initialization" is-config="true" duration-ms="121442" started-at="2021-08-26T17:31:26 CDT" finished-at="2021-08-26T17:33:27 CDT">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="initialization" is-config="true" duration-ms="11121" started-at="2021-09-02T17:01:21 CDT" finished-at="2021-09-02T17:01:32 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="selectDates()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDates" duration-ms="325" started-at="2021-08-26T17:33:27 CDT" finished-at="2021-08-26T17:33:27 CDT">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[Element <input id="ctl00_mainContent_btn_FindFlights" name="ctl00$mainContent$btn_FindFlights" type="submit"> could not be scrolled into view
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-9P5T93S', ip: '10.1.240.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 87.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210318103112, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 32520, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 60118def-5996-4216-8bac-88bf62f2f92d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="ctl00_mainContent_btn_FindFlights" name="ctl00$mainContent$btn_FindFlights" type="submit"> could not be scrolled into view
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-9P5T93S', ip: '10.1.240.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 87.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210318103112, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 32520, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 60118def-5996-4216-8bac-88bf62f2f92d
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at qaAcademy.SearchRoundTripFlightTest.selectDates(SearchRoundTripFlightTest.java:176)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectDates -->
-        <test-method status="PASS" signature="selectRndTripRadio()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectRndTripRadio" duration-ms="78" started-at="2021-08-26T17:33:29 CDT" finished-at="2021-08-26T17:33:29 CDT">
+        <test-method status="PASS" signature="selectRndTripRadio()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectRndTripRadio" duration-ms="408" started-at="2021-09-02T17:01:32 CDT" finished-at="2021-09-02T17:01:33 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRndTripRadio -->
-        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDropdown" duration-ms="8549" started-at="2021-08-26T17:33:29 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectRndTripRadio" finished-at="2021-08-26T17:33:37 CDT">
+        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectDropdown" duration-ms="8728" started-at="2021-09-02T17:01:33 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectRndTripRadio" finished-at="2021-09-02T17:01:41 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDropdown -->
-        <test-method status="PASS" signature="autoSuggestDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="autoSuggestDropdown" duration-ms="719" started-at="2021-08-26T17:33:37 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectDropdown" finished-at="2021-08-26T17:33:38 CDT">
+        <test-method status="PASS" signature="autoSuggestDropdown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="autoSuggestDropdown" duration-ms="725" started-at="2021-09-02T17:01:41 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.selectDropdown" finished-at="2021-09-02T17:01:42 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- autoSuggestDropdown -->
-        <test-method status="PASS" signature="selectCheckBox()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectCheckBox" duration-ms="353" started-at="2021-08-26T17:33:38 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.autoSuggestDropdown" finished-at="2021-08-26T17:33:38 CDT">
+        <test-method status="PASS" signature="selectCheckBox()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="selectCheckBox" duration-ms="329" started-at="2021-09-02T17:01:42 CDT" depends-on-methods="qaAcademy.SearchRoundTripFlightTest.autoSuggestDropdown" finished-at="2021-09-02T17:01:43 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCheckBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="tearDown" is-config="true" duration-ms="2780" started-at="2021-08-26T17:33:38 CDT" finished-at="2021-08-26T17:33:41 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaAcademy.SearchRoundTripFlightTest@4d154ccd]" name="tearDown" is-config="true" duration-ms="2085" started-at="2021-09-02T17:01:43 CDT" finished-at="2021-09-02T17:01:45 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
